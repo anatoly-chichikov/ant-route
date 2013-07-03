@@ -3,19 +3,17 @@ package chichikov.antroute.core;
 import java.util.*;
 
 /**
- * Route
+ * RouteUnit
  *
  * @author Anatoly Chichikov (30.06.2013)
  */
 public class Route implements Tracked {
-
 
     private TreeSet<Positionable> allPositions;
 
     Route() {
         this.allPositions = new TreeSet<Positionable>();
     }
-
 
     @Override
     public boolean equals(Object o) {
@@ -39,7 +37,7 @@ public class Route implements Tracked {
 
     @Override
     public String toString() {
-        return "Route = " + allPositions;
+        return "RouteUnit = " + allPositions;
     }
 
     @Override

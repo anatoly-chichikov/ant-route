@@ -6,8 +6,9 @@ package chichikov.antroute.core;
  * @author Anatoly Chichikov (30.06.2013)
  */
 public class Position implements Positionable {
-    int x;
-    int y;
+
+    private int x;
+    private int y;
 
     Position(int x, int y) {
         this.x = x;

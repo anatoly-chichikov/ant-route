@@ -14,6 +14,7 @@ import static chichikov.antroute.core.CoreFactory.getPosition;
  * @author Anatoly Chichikov (01.07.2013)
  */
 public class AntRouteConsole {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input \'X\'");
